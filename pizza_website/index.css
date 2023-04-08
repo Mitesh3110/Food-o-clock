@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Dancing+Script:wght@700&family=Josefin+Sans&display=swap');
+
+/* general use classes style below... */
+
+body{
+    background-color: rgb(238, 237, 235);
+    overflow-x: hidden;
+}
+
+nav{
+    position: fixed!important;
+    margin: 0%!important;
+    width: 100%;
+    z-index: 100;
+}
+
+.font {
+    font-family: 'Satisfy', cursive;
+    
+}
+
+.icon {
+    font-size:5rem;
+    background-color: rgb(240, 148, 10);
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+.navbg{
+    background-color: white;
+    border-bottom: 2px solid darkorange;
+}
+
+.btnbg{
+    background-color: darkorange;
+}
+
+/* css for home page is below */
+
+.bg-home {
+    background:linear-gradient(0deg, rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)), url(images/home/home_bg.png); 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 37rem;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    background-position: center;
+}
+
+.bg2{
+    background:linear-gradient(0deg, rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)), url(images/home/home_bg2.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.deals{
+    margin-top: 0.7rem;
+    background: linear-gradient(0deg, rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)), url(images/home/home_bg3.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.row1{
+    color: white;
+    background: linear-gradient(0deg,rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76) );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    margin: 5%;
+    padding: 2rem;
+}
+.row2{
+    color: white;
+    background: linear-gradient(0deg,rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76) );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    margin: 5%;
+    padding: 1rem;
+}
+
+.contactus{
+    margin-top: 0.7rem;
+    background: linear-gradient(0deg, rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)), url(images/home/ContactUS_bg.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Home css is done and now css for menu is below... */
+.bg-menu{
+    background:linear-gradient(0deg, rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)), url(images/menu/bg1.jpeg); 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 37rem;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    background-position: center; 
+}
+
+.menunav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menunavitem{
+    color: black; 
+}
+
+.menunavitem:hover{
+    color: darkorange;
+    cursor: pointer;
+    font-size: larger;
+}
+.search-button{
+    background-color: darkorange;
+}
+
+.search-bar{
+    border: 1px solid darkorange;
+    border-radius: 10px;
+}
+
+.addButton {
+    border-color:gainsboro;
+    border-width:1px;
+    font-size: x-small;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.addButton:hover{
+    background-color: darkorange;
+}
+
+.addButton:focus {
+    border:1px solid darkorange; /* here configure as your needs */
+}
+
+/* css for blog starts from below */
+.bg-blog{
+    background:linear-gradient(0deg, rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)), url(images/blog/bg1.jpeg); 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 37rem;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    background-position: center; 
+}
+
+/* css for about starts from below */
+
+.bg-about{
+    background:linear-gradient(0deg, rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)), url(images/about/bg1.jpeg); 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 37rem;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    background-position: center; 
+}
+
+.aboutbg1{
+    color: white;
+    background: linear-gradient(0deg,rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)),url(images/about/bg2.jpeg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    margin: 5%;
+    padding: 2rem;
+}
+.aboutbg2{
+    color: white;
+    background: linear-gradient(0deg,rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)),url(images/about/bg3.jpeg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    margin: 5%;
+    padding: 2rem;
+}
+
+/* css for contact page below */
+
+.bg-contact{
+    background:linear-gradient(0deg, rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)), url(images/contact/contactbg.jpeg); 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 37rem;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    background-position: center; 
+}
+
+.contactbg1{
+    color: white;
+    /* background: linear-gradient(0deg,rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)),url(images/contact/c1.jpeg)no-repeat; */
+    background-image: url(images/contact/c1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    margin: 5%;
+    padding: 2rem;
+}
+
+/* general use css below */
+
+
+.order-button{
+    background-color: darkorange;
+    color: white;
+}
+.order-button:hover{
+    background-color: rgba(255, 141, 2, 0.753);
+    color:white
+}
+.row-menu2{
+    display: none;
+}
+.menu-button{
+    border-color: darkorange;
+    color: black;
+}
+.menu-button:hover{
+    background-color: darkorange;
+    color: white;
+}
+
+.menu-button1{
+    display: none;
+    border-color: darkorange;
+    color: black;
+}
+.menu-button1:hover{
+    /* display: none; */
+    background-color: darkorange;
+    color: white;
+}
+
+.home-intro {
+    font-family: 'Dancing Script', cursive;
+    color: darkorange;
+    font-size: 4em;
+}
+
+
+
+.fullrow{
+    display: none;
+}
+
+.tag{
+    font-size: 2rem;
+    width: 8rem;
+    padding: 0.8rem;
+    text-align: center;
+    background-color: rgb(240, 148, 10);
+    border-radius: 75%;
+}
+
+.menuhover{
+    transition-property: all;
+    transition-duration: .5s;
+}
+
+.menuhover:hover{
+    transform: translateY(-0.5rem);
+}
+
+
+
+.contactbg1{
+    color: white;
+    background: linear-gradient(0deg,rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)),url(c1.jpeg)no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+    margin: 5%;
+    padding: 2rem;
+}
+.orange{
+    color: darkorange;
+}
+
+.white{
+    color: white !important;
+}
+
+
+.mapouter {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    /* margin-left: 15%; */
+  }
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+  }
+
+  .formfield{
+    background: linear-gradient(0deg,rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76) );
+    padding: 4% 2%;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid darkorange;
+    
+  }
+
+  .textArea{
+    resize: none;
+  }
+
+  .formfield{
+    color: darkorange!important;
+  }
+
+
+textarea:focus, input:focus {
+   border: 1px solid darkorange!important;
+}
+
+  .footericon{
+    font-size: x-large;
+    color: darkorange;
+  }
+
+  .footericon2{
+    font-size: x-large;
+    color: rgba(255,255,255, 0.856);
+  } 
+
+  
+  .footer{
+    background: linear-gradient(0deg, rgba(39, 39, 38, 0.76), rgba(39, 39, 38, 0.76)); 
+    background-size: cover;
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+    *{
+        margin: auto;
+    }
+    .home-intro {
+        font-family: 'Dancing Script', cursive;
+        color: darkorange;
+        font-size: 2.5em;
+    }
+
+    .bg-home {
+        height: 24rem;
+        border-bottom-left-radius: 45%;
+        border-bottom-right-radius: 45%;
+    }
+
+    .menu-button{
+        display: none;
+        border-color: darkorange;
+        color: black;
+    }
+
+    .menu-button1{
+        display: flex;
+        align-items: center;
+        border-color: darkorange;
+        color: black;
+    }
+    .row-menu{
+        display: none;
+    }
+    .row-menu2{
+        display:block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .row1{
+        display: none;
+    }
+
+    .row2{
+        display: none;
+    }
+  
+    .fullrow{
+        color:White;
+        font-size: 0.5rem;
+        display:flex;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tag{
+        font-size: 0.8rem;
+        width: 4rem;
+        text-align: center;
+        background-color: rgb(240, 148, 10);
+        border-radius: 75%;
+    }
+
+    .menunav{
+        display: none;
+    }
+
+    .addButton{
+        display: none;
+    }
+}

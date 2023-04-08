@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Food O'Clock</title>
+</head>
+
+<body>
+  <!-- navigatin bar using js -->
+  <div id="navigationbar">
+
+  </div>
+  <div class="modal fade font" id="mymodal" >
+    <div class="modal-dialog">
+      <div class="modal-content" style="background-color: rgb(238, 237, 235);">
+        <div class="modal-header">
+          <h4 class="orange">SignUp|Login</h4>
+          <button type="button" class="close" data-dismiss="modal"> &times; </button>
+        </div>
+
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="" style="font-size: large;"><ion-icon name="person" class="orange mr-3" style="font-size: x-large;"></ion-icon>Username</label>
+            <input type="text" name="" class="form-control" required/>
+          </div>
+          <div class="form-group">
+            <label for="" style="font-size: large;"><ion-icon name="mail" class="orange mr-3" style="font-size: x-large;"></ion-icon>E-mail</label>
+            <input type="email" name="" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="" style="font-size: large;"><ion-icon name="lock-closed" class="orange mr-3" style="font-size: x-large;"></ion-icon>Password</label>
+            <input type="password" name="" class="form-control">
+          </div> 
+        </div>
+
+        <div class="modal-footer justify-content-center">
+          <input type="submit" value="submit" class="btn order-button" data-dismiss="modal"></input>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-home card mb-3">
+    <div class="card-body">
+      <h5 class="card-text text-center display-6">
+        <div class="home-intro mt-5 pt-5">Welcome to Food O'Clock</div>
+        <p class="font text-center white mt-5">
+          where every dish is a celebration of flavors!
+          Our menu is carefully crafted with locally sourced ingredients to
+          provide a memorable dining experience. Come savor the taste of
+          excellence with us.
+        </p>
+      </h5>
+    </div>
+  </div>
+
+  <div class="container font  mb-3">
+    <div class="card-deck text-center">
+      <div class="card my-3">
+        <img class="card-img-top img-fluid" src="/pizza_website/images/home/fresh ingredients.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title ">Fresh Ingredients</h5>
+          <p class="card-text" style="text-align: justify;">To make your delecious dishes we use the fresh and healthy
+            ingredients in our cooking process. we used the pure and hygenic consumable food which are rich in protien,
+            fiber and vitamins with low of callories.</p>
+        </div>
+      </div>
+      <div class="card my-3">
+        <img class="card-img-top img-fluid" src="/pizza_website/images/home/experienced cook.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title font">Experinced Cook</h5>
+          <p class="card-text" style="text-align: justify;">We have 2 masterchef and 10 cooks who are always ready to
+            serve you tasty food. Also they can make cousine of famous country. Our masterchef have experienced more
+            than 12 years of cooking.</p>
+        </div>
+      </div>
+      <div class="card my-3">
+        <img class="card-img-top img-fluid" src="/pizza_website/images/home/150+ recipe.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title font">150+ Recipe</h5>
+          <p class="card-text" style="text-align: justify;">Our chef and cooking staff are able to make more than 150
+            recipes. They are awarded for some of these recipes in a national level cooking competition. They love to
+            experience and celebration.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class=" bg2 jumbotron p-3 p-md-5 text-white rounded">
+    <div class="col-md-12 px-0">
+      <h1 class=" home-intro display-4 text-center ">Bringing Happiness To You</h1>
+      <p class="lead my-3 text-center font">Ready to serve your meal in just a minutes...</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <ion-icon name="phone-portrait-sharp" class="icon font"></ion-icon>
+            <h2 class="font">Online Delivery</h2>
+            <p><a class="btn font  order-button my-2" href="#" role="button">ORDER ONLINE »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 text-center">
+            <ion-icon name="cart-sharp" class="icon"></ion-icon>
+            <h2 class="font">Click & Collect</h2>
+            <p><a class="btn  font order-button my-2" href="#" role="button">TAKEOUT ORDER »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4 text-center">
+            <ion-icon name="pizza-sharp" class="icon font"></ion-icon>
+            <h2 class="font">Restaurant Dining</h2>
+            <p><a class="btn  font order-button my-2" href="#" role="button">BOOK A TABLE »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="text-center home-intro">Food that brings people together!</h1>
+    <p class="lead my-3 text-center font">Explore the best and choose your flavors...</p>
+    <div class="d-flex my-3 justify-content-center"><button class="menu-button1"
+        style="background-color: white ; border: 1px solid darkorange; border-radius: 5%; "><a class="font"
+          style="color: black;" href="/pizza_website/menu.html" role="button">VIEW ALL MENU</a></button></div>
+    <!-- Example row of columns -->
+    <div class="row row-menu">
+      <div class=" col-md-4 text-center">
+        <img class="menuhover rounded-circle" src="/pizza_website/images/home/starter.jpg" alt="Generic placeholder image"
+          width="250" height="250">
+        <h2 class="font">Starter</h2>
+      </div>
+      <div class="col-md-4 my-5 text-center">
+        <p><a class="btn menu-button font" href="/pizza_website/menu.html" role="button">VIEW ALL MENU</a></p>
+        <img class="rounded-circle menuhover" src="/pizza_website/images/home/main course.jpg" alt="Generic placeholder image" width="250"
+          height="250">
+        <h2 class="font">Main course</h2>
+      </div>
+      <div class="col-md-4 text-center">
+        <img class="rounded-circle menuhover" src="/pizza_website/images/home/dessert.jpg" alt="Generic placeholder image"
+          width="250" height="250">
+        <h2 class="font">Dessert</h2>
+      </div>
+    </div>
+
+    <div class="row row-menu2">
+      <div class="text-center">
+        <img class="rounded-circle menuhover" src="/pizza_website/images/home/starter.jpg" alt="Generic placeholder image"
+          width="250" height="250">
+        <h2 class="font">Starter</h2>
+      </div>
+      <div class="text-center">
+
+        <img class="rounded-circle menuhover" src="/pizza_website/images/home/main course.jpg" alt="Generic placeholder image" width="250"
+          height="250">
+        <h2 class="font">Main course</h2>
+      </div>
+      <div class="text-center">
+        <img class="rounded-circle menuhover" src="/pizza_website/images/home/dessert.jpg" alt="Generic placeholder image"
+          width="250" height="250">
+        <h2 class="font">Dessert</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="deals font" id="current deals">
+    <h1 class=" text-center pt-4 home-intro">Best Deals!</h1>
+    <div class="row row1">
+      <div class="col-md-5 left">
+        <img src="/pizza_website/images/home/family offer.jpg" style="border-radius: 5%;" height="100%" width="100%" alt="">
+      </div>
+      <div class="right col-md-7 d-flex flex-column align-items-center ">
+        <div style="color: darkorange;"> Weekly Deal!</div>
+        <div class="tag my-2">Save 20%</div>
+        <div style="font-size: 4rem;"> Big Deal </div>
+        <div>20% off every Tuesday on your order above 799/- </div>
+      </div>
+    </div>
+
+    <div class=" row">
+      <div class="col-md-6 mb-2">
+        <div class="row row2">
+          <div class="col-md-5 left"><img src="/pizza_website/images/home/orderonline.jpg" style="border-radius: 5%;" height="100%"
+              width="87%" alt="">
+          </div>
+          <div class="right col-md-7 d-flex flex-column align-items-center ">
+            <div style="color: darkorange;"> Daily Deal!</div>
+            <div class="tag my-2">10% Off</div>
+            <div style="font-size: 2rem;"> Online Order </div>
+            <div class="mb-0">10% off everyday on your Online order </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-2">
+        <div class="row row2">
+
+          <div class="right col-md-7 d-flex flex-column align-items-center ">
+            <div style="color: darkorange;"> Daily Deal!</div>
+            <div class="tag my-2">Buy 1 Get 1</div>
+            <div style="font-size: 2rem;"> Sweet </div>
+            <div class="mb-0">Buy 1 Get 1 on your each order of dessert </div>
+          </div>
+          <div class="col-md-5 left"><img src="/pizza_website/images/home/offerdessert.jpg" style="border-radius: 5%;" height="100%"
+              width="87%" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mx-4 fullrow font">
+      <div class="col-md-5 left d-flex justify-content-center align-items-center">
+        <img src="/pizza_website/images/home/family offer.jpg" style="border-radius: 5%; margin-left: 2rem;" height="80%"
+          width="80%" alt="">
+      </div>
+
+      <div class="right col-md-7 my-2 d-flex flex-column align-items-center ">
+        <div style="color: darkorange; font-size: 1rem;"> Weekly Deal!</div>
+        <div class="tag my-2 ">Save 20%</div>
+        <div style="font-size: 2rem;"> Family Deal </div>
+        <div style="font-size: 1rem;">20% off every Tuesday on your family order </div>
+      </div>
+
+      <div class="right col-md-7 my-5 d-flex flex-column align-items-center ">
+        <div style="color: darkorange;font-size: 1rem;"> Daily Deal!</div>
+        <div class="tag my-2">10% Off</div>
+        <div style="font-size: 2rem;"> Online Order </div>
+        <div class="mb-0" style="font-size: 1rem;">10% off everyday on your Online order </div>
+      </div>
+      <div class="col-md-5 left d-flex justify-content-center align-items-center"><img
+          src="/pizza_website/images/home/orderonline.jpg" style="border-radius: 5%;margin-left: 2rem;" height="75%" width="50%"
+          alt="">
+      </div>
+
+      <div class="col-md-5 left d-flex justify-content-center "><img src="/pizza_website/images/home/offerdessert.jpg"
+          style="border-radius: 5%; margin-left: 2rem;" height="95%" width="60%" alt="">
+      </div>
+      <div class="right col-md-7 mb-2 my-5 d-flex flex-column align-items-center justify-content-center">
+        <div style="color: darkorange;font-size: 1rem;"> Daily Deal!</div>
+        <div class="tag my-2">Buy 1 Get 1</div>
+        <div style="font-size: 2rem;"> Sweet </div>
+        <div style="font-size: 1rem;">Buy 1 Get 1 on your each order of dessert </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center font">
+    <div class="lead home-intro" id="locations">Find The Restaurant near you</div>
+    <div class="lead my-0 text-center font ">Our Locations</div>
+  </div>
+  <div class="row  text-center font">
+    <div class="col-lg-3" id="surat">
+
+      <h2 class="mt-4 font-weight-normal orange">Surat</h2>
+      <div class="card-body">
+        <h5 class="">10-12 Essen House, Ghod Dod Road, opp. Regent Mall, Athwa, Surat, Gujarat 395007</h5>
+      </div>
+
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-3" id="vadodara">
+      <h2 class="mt-4 font-weight-normal orange">Vadodara</h2>
+      <div class="card-body">
+        <h5 class="">18,19 Dr. Rustom cama Marg, Alkapuri Society, Alkapuri, Vadodara,
+          Gujarat 390007</h5>
+      </div>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-3" id="ahmedabad">
+      <h2 class="mt-4 font-weight-normal orange">Ahmedabad</h2>
+
+      <div class="card-body">
+        <h5 class="">SATYA ONE, 1st Floor, Drive In Rd, opp. Manaav Mandir, Memnagar,
+          Ahmedabad, Gujarat 380052</h5>
+      </div>
+    </div>
+    <div class="col-lg-3" id="bhavnagar">
+      <h2 class="mt-4 font-weight-normal orange">Bhavnagar</h2>
+
+      <div class="card-body">
+        <h5 class="">Krushna Complex, 1st Floor, Waghawadi rd., Parimal Chowk, Bhavnagar, Gujarat 364001</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="contactus" id="contact Us">
+    <div class="row py-5">
+      <div class="col-6 d-flex ">
+
+        <!-- <div class="mapouter"> -->
+        <div class="gmap_canvas align-items-center justify-content-center mx-5 py-5"><iframe id="gmap_canvas"
+            width="100%" height="100%"
+            src="https://maps.google.com/maps?q=Essen House, Ghod Dod Road, opp. Regent Mall, Athwa, Surat,&t=&z=12&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" allowfullscreen></iframe><br>
+        </div>
+        <!-- </div> -->
+
+      </div>
+
+      <div class="col-6 text-white font">
+        <form class="mr-5 pr-5">
+          <h2 class=" font-weight-normal orange">CONTACT US</h2>
+          <div class=" my-4 form-group">
+            <input type="email" class="form-control formfield" id="exampleFormControlInput1" placeholder="Full Name">
+          </div>
+          <div class="my-4 form-group">
+            <input type="email" class="form-control formfield" id="exampleFormControlInput1" placeholder="Email">
+          </div>
+          <div class=" my-4 form-group">
+            <textarea class="textArea form-control formfield" id="exampleFormControlTextarea1" cols="3" rows="3"
+              placeholder="Message"></textarea>
+          </div>
+          <button class="btn order-button my-4 px-4 ">
+            Send
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="pt-4 my-md-5 pt-md-5 font orange" id="footer">
+    
+  </footer>
+  </div>
+  <!-- "https://source.unsplash.com/1365x450/?pizza"/ -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  <script src="index.js"></script>
+
+  <script>document.getElementById('home-nav').classList.add('active')</script>
+</body>
+
+</html>
